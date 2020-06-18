@@ -14,7 +14,7 @@ using System.Data.SqlClient;
 /// </summary>
 public class db
 {
-    public static string conStr = "server=10.10.0.10,9443;database=manage;uid=sa;pwd=JL@881103l";
+    public static string conStr = "server=127.0.0.1;database=manage;Integrated Security=true";
 	public db()
 	{
 		//
